@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    /* text-align helps in aligning the elements as required. */
+    /* text-align works for elements who have a inline bolck display or the elements are end to end block elements i.e they have no set width. */
+    text-align: center;/*centers the elements*/
+}
+h1{
+    /* after changing the width of the "h1" the allignment gets disturb */
+    /* by giving a margin: auto; the items are again centered */
+    /* margin: auto; this property gives 0 margin on top and bottom and aligns the element horizontally in center */
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    width: 40%;
+    margin: 50px auto 0 auto ; 
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-size: 30px;
+    color: #66BFBF;
+}
+h3{
+    color:  #11999E;
+}
+.mern{
+    font-family: 'Merienda', cursive;
+    margin-top: 0;
+}
+.top_container{
+    background-color: #EAF6F6;
+    padding: 100px;
+    position: relative;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 400px;    
+}
+.profile img
+{
+    height: 250px;
+    padding: 20px;
+}
+.skill_img_1{
+    height: 160px;
+    float: left;
+    margin-right: 30px;
+}
+.skill_img_2{
+    height: 160px;
+    float: right;
+    margin-left: 30px;
+}
+.contacts{
+    height: 160px;
+    padding: 20px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto ;
+}
+.skill_1{
+    text-align: left;
+}
+p{
+    line-height: 2;
+}
+.btn {
+    
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999B);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999B);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999B);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999B);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999B);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #000000;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+.footer-link{
+    color: #05383a;
+    margin: 30px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #ffffff;
+}
+.bottom-container{
+    margin-top: 100px;
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.intro{
+    width: 30%;
+    margin: 20px auto 30px auto;
+}
+hr{
+    border: dotted 6px #EAF6F6;
+    width: 4%;
+    border-bottom: none;
+}
+.middle-container{
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-message{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.copyright{
+    color: #EAF6F6;
+    padding: 20px;
+    font-size: 0.85rem;
+}
