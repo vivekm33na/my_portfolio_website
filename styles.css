@@ -134,3 +134,6 @@ hr{
     padding: 20px;
     font-size: 0.85rem;
 }
+ul{
+    list-style-type: none;
+}
